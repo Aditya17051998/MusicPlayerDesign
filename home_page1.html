@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music_Store</title>
+    <link rel="stylesheet" type="text/css" href="web_style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>         <!--     for font awsome         -->
+ <!--   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> -->
+
+    
+</head>
+<body>
+    <!--         /////////////////////        navigation bar    ///////////////////////////////              -->
+
+    <nav id="navigation">
+        
+      <img id="logo" src="images\music_logo.png" >
+
+       <a href="#" id="fav">Fabourites</a>
+
+       <div id="search">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder=" search">
+       </div>
+
+       <a href="#" style="text-decoration: none;" id="notify"><i  class="fas fa-bell"></i></a>
+
+       <a id="login" href="#"><img src="images\myimage.jpg" ></a>
+
+       
+
+       <!-- //////     for dropdown  on small screen        ///////////////////// -->
+
+       <div id="bar">
+        <button>View profile </button>      
+        <div id="bar_item">
+            <ul style="list-style: none;">
+                <a href="#"><li>Favourites</li></a>
+                <a href="#"><li>Notification</li></a>
+                <a href="#"><li>Logout</li></a>
+            </ul>
+        </div>
+
+
+       </div>
+       
+        
+       
+
+
+
+       
+        
+    </nav>
+
+    <!--    ///////////////////////////////          main content            ////////////////////////////////////-->
+
+    <main id="main">
+
+        
+         
+        <!--//////////////////////             main header      ///////////////////-->
+        <div id="main_header">
+            <a href="homepage2.html"><img src="images\english_songs.jpg"></a> 
+            <a href="homepage2.html""><img src="images\bollywood_songs.jpg"></a>
+            <a href="homepage2.html""><img src="images\punjabi_songs.png"></a> 
+
+        </div >
+
+        <!--//////////                     latest release         ///////////////////////-->
+
+        <div id="main_latest_release_home">
+            <p>Latest Release</p>
+            <!-- content box for songs -->
+            <div id="main_latest_release">
+                <!-- small box having 2 songs only top and bottom -->
+                <div class="main_latest_release">
+                   <a href="#">
+                    <div class="main_latest_release_songs">
+                       <img src="images/despacito.png">
+                       <div>
+                        <p>Tum mere ho</p>
+                        <p style="font-size: 10px;">24/07/2020</p>
+                       </div>
+                       <p style="font-size: 10px;">03:05</p>
+                    </div>
+                   </a> 
+                   <a href="#">
+                    <div class="main_latest_release_songs">
+                       <img src="images/despacito.png">
+                       <div>
+                        <p >let me love you</p>
+                        <p style="font-size: 10px;">24/07/2020</p>
+                       </div>
+                       <p style="font-size: 10px;">04:05</p>
+                    </div>
+                   </a> 
+                </div>
+                <!-- small box having 2 songs only top and bottom -->
+                <div class="main_latest_release">
+                    <a href="#">
+                        <div class="main_latest_release_songs">
+                           <img src="images/despacito.png">
+                           <div>
+                            <p>Despacito</p>
+                            <p style="font-size: 10px;">24/07/2020</p>
+                           </div>
+                           <p style="font-size: 10px;"> 04:05</p>
+                        </div>
+                       </a> 
+                       <a href="#">
+                        <div class="main_latest_release_songs">
+                           <img src="images/despacito.png">
+                           <div>
+                            <p>Phir Mulaqat</p>
+                            <p style="font-size: 10px;">24/07/2020</p>
+                           </div>
+                           <p style="font-size: 10px;">03:05</p>
+                        </div>
+                       </a> 
+                </div>
+                
+    
+            </div>
+
+        </div>
+
+<!-- ///////////////////////      popular artist                   ////////////////////////////////////////////// -->
+        
+        <div id="popular_artist">
+            <p>Popular Artist</p>
+            <div id="artist_image">
+                <a href="homepage2.html""><img src="images/Ed_sheeran.jpg"></a>
+                <a href="homepage2.html""><img src="images/honey_singh.jpg"></a>
+                <a href="homepage2.html""><img src="images/neha_kakkar.jpg"></a>
+                <a href="homepage2.html""><img src="images/justin.jpg"></a>
+                <a href="homepage2.html""><img src="images/arjit_singh.jpg"></a>
+                <a href="homepage2.html""><img src="images/taylor.jpg"></a>
+
+            </div>
+
+        </div>
+<!-- /////////////////////////////////                  special album                  ///////////////////////// -->
+
+        <div id="special_album">
+
+            <div>
+                <a href="homepage2.html""> <img src="images/taylor.jpg"></a> 
+                <h1>Party Songs</h1>
+
+            </div>
+
+            <div>
+                <a href="homepage2.html""><img src="images/justin.jpg"></a>
+                
+                <h1>Remix Songs</h1>
+
+            </div>
+                
+
+            <div>
+                <a href="homepage2.html""><img src="images/tony_kakkar.jpeg"></a>
+                
+                <h1>Superhit Songs</h1>
+
+            </div>
+
+
+        </div>
+
+<!-- ///////////////////////////////          latest hindi   ///////////////////////////////////////////////////// -->
+
+        <div id="latest_hindi">
+            <p>Latest Hindi</p>
+            <div id="latest_hindi_album">
+                <div>
+                    <a href="homepage2.html""><img src="images/tony_kakkar.jpeg"></a>
+                    <p>12/12/2019</p>
+                </div>
+                <div>
+                    <a href="homepage2.html""><img src="images/guru_randhawa.jpg"></a>
+                    <p>12/12/2019</p>
+                </div>
+                <div>
+                    <a href="homepage2.html""><img src="images/tony_kakkar.jpg"></a>
+                    <p>12/12/2019</p>
+                </div>
+                <div>
+                    <a href="homepage2.html""><img src="images/music_logo.png"></a>
+                    <p>12/12/2019</p>
+                </div>
+                <div>
+                    <a href="homepage2.html""><img src="images/english_songs.jpg"></a>
+                    <p>12/12/2019</p>
+                </div>
+                <div>
+                    <a href="homepage2.html""><img src="images/punjabi_songs.png"></a>
+                    <p>12/12/2019</p>
+                </div>
+            </div>
+
+        </div>
+        <div >
+
+        </div>
+
+    </main>
+
+    <!--/////////////////////////////////////           aside bar content play list    /////////////////////////////////-->
+
+    <aside id="queue">
+
+        <!-- for heading  -->
+
+        <div id="queue_head">
+            <h1>Playlist</h1>
+            <p>queue</p>
+
+            <!-- for drop down menu of playlist -->
+            <div id="playlist_drop_main">
+                <!-- when click on this button -->
+                <button>></button>
+                <div class="drop_playlist">
+                    <ul>
+                        <a href="#"><li>go to playlist</li></a>
+                        <a href="#"><li>favourites</li></a>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        <!-- songs list -->
+            <div class="lib_songs">
+                <img src="images/arjit_singh.jpg">
+                <p>Banjara</p>
+                <button><i class="fas fa-heart"></i></button>
+                
+
+            </div>
+            <div class="lib_songs">
+                <img src="images/neha_kakkar.jpg">
+                <p>Mile ho tum humko</p>
+                <button><i class="fas fa-heart"></i></button>
+            </div>
+            <div class="lib_songs">
+                <img src="images/tony_kakkar.jpeg">
+                <p>Goa vale beach</p>
+                <button><i class="fas fa-heart"></i></button>
+            </div>
+            <div class="lib_songs">
+                <img src="images/justin.jpg">
+                <p>Let me love you</p>
+                <button><i class="fas fa-heart"></i></button>
+            </div>
+
+    </aside>
+
+    <!--//////////////////////////////////////////       music playing area           //////////////////////////////////////-->
+    <footer id="play">
+
+        <div id="rotate"><img src="images/despacito.png"></div>
+
+        <audio controls>
+            <source src="let_me_love_you.mp3" type="audio/mp3">
+        </audio>
+
+        
+
+
+
+    </footer>
+
+</body>
+</html>
